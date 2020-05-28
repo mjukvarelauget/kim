@@ -3,8 +3,8 @@ body {
 }
 
 #answer_text {
-    font-size: 43vh;
     color: #ffffff;
+    font-size: min(24vw, 43vh);
 }
 
 #question_text {
