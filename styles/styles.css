@@ -1,10 +1,25 @@
+:root {
+    --testvar: 1000px;
+}
+
 body {
     background-color: #000000;
 }
 
 #answer_text {
     color: #ffffff;
-    font-size: 20vh;
+}
+
+@media (max-width: 100vh){
+    #answer_text {
+	font-size: 20vh;
+    }
+}
+
+@media (min-width: 100vh) {
+    #answer_text {
+	font-size: 25vh;
+    }
 }
 
 #question_text {
@@ -18,8 +33,6 @@ main {
     color: #ffffff;
 
     text-align: center;
-    
-    margin-top: 40vh;
-    margin-left: auto;
-    margin-right: auto;
+
+    margin: 40vh auto 0 auto;
 }
