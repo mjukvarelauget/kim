@@ -4,11 +4,11 @@ body {
 
 #answer_text {
     color: #ffffff;
-    font-size: min(24vw, 43vh);
+    font-size: 20vh;
 }
 
 #question_text {
-    font-size: 2h;
+    font-size: 2vh;
     margin-bottom: 20px;
 }
 
@@ -19,7 +19,7 @@ main {
 
     text-align: center;
     
-    margin-top: 25vh;
+    margin-top: 40vh;
     margin-left: auto;
     margin-right: auto;
 }
