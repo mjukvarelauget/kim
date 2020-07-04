@@ -4,12 +4,26 @@ body {
 
 #answer_text {
     color: #ffffff;
-    font-size: min(24vw, 43vh);
 }
 
-#question_text {
-    font-size: 2h;
-    margin-bottom: 20px;
+@media (max-width: 100vh){
+    #answer_text {
+	font-size: 20vw;
+    }
+    #question_text {
+	font-size: 2vw;
+	margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 100vh) {
+    #answer_text {
+	font-size: 25vh;
+    }
+    #question_text {
+	font-size: 2vh;
+	margin-bottom: 20px;
+    }
 }
 
 main {
@@ -18,8 +32,6 @@ main {
     color: #ffffff;
 
     text-align: center;
-    
-    margin-top: 25vh;
-    margin-left: auto;
-    margin-right: auto;
+
+    margin: 40vh auto 0 auto;
 }
