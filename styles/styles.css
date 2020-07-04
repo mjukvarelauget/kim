@@ -8,7 +8,11 @@ body {
 
 @media (max-width: 100vh){
     #answer_text {
-	font-size: 20vh;
+	font-size: 20vw;
+    }
+    #question_text {
+	font-size: 2vw;
+	margin-bottom: 20px;
     }
 }
 
@@ -16,11 +20,10 @@ body {
     #answer_text {
 	font-size: 25vh;
     }
-}
-
-#question_text {
-    font-size: 2vh;
-    margin-bottom: 20px;
+    #question_text {
+	font-size: 2vh;
+	margin-bottom: 20px;
+    }
 }
 
 main {
